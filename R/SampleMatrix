@@ -1,0 +1,5 @@
+# Create max number of matrix in array
+SampleMatrix <- function(d, ...) {
+M <- RVineMatrixSample(d, size = d*500, ...)
+M <- unique(M)
+}
