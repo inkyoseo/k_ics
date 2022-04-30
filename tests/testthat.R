@@ -1,4 +1,4 @@
 library(testthat)
-library(funname)
+library(k_ics)
 
-test_check("funname")
+test_check("k_ics")
