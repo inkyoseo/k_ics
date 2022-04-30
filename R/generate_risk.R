@@ -25,3 +25,4 @@ generate_risk <- function(seed) {
   ) %>% as.data.frame() %>%
     mutate(pop.risk_total = (pop.risk_life + pop.risk_pnc + pop.risk_cred + pop.risk_mkt))
 }
+samplecode
